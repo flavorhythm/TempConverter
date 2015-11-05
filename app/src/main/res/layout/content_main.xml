@@ -16,4 +16,44 @@
         android:id="@+id/title_ID"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/placeholder"
+        android:id="@+id/c_ID"
+        android:layout_below="@+id/title_ID"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/placeholder"
+        android:id="@+id/f_ID"
+        android:layout_below="@+id/c_ID"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="181dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/celsius_units"
+        android:id="@+id/c_units_ID"
+        android:layout_alignBaseline="@+id/c_ID"
+        android:layout_alignTop="@+id/c_ID"
+        android:layout_toRightOf="@+id/c_ID"
+        android:layout_toEndOf="@+id/c_ID" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/fahrenheit_units"
+        android:id="@+id/f_units_ID"
+        android:layout_alignBaseline="@+id/f_ID"
+        android:layout_alignTop="@+id/f_ID"
+        android:layout_toRightOf="@+id/f_ID"
+        android:layout_toEndOf="@+id/f_ID" />
 </RelativeLayout>
